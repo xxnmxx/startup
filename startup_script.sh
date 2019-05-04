@@ -1,5 +1,6 @@
 #!/bin/bash
 sudo apt install -y update
+wait$!
 sudo apt install -y tree python3-pip git 
 sudo python3 -m pip install flake8 venv pipenv
 sudo git clone https://github.com/w0rp/ale.git ~/.vim/pack/git-plugins/start/ale
